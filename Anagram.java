@@ -19,6 +19,7 @@ public class Anagram {
         Arrays.sort(charArray1);
         Arrays.sort(charArray2);
 
+        // compare
         // Compare sorted arrays
         return Arrays.equals(charArray1, charArray2);
     }
