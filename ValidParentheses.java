@@ -10,7 +10,6 @@ public class ValidParentheses {
             if (ch[i] == '(' || ch[i] == '{' || ch[i] == '[') {
                 s.push(ch[i]);
             } else {
-
                 char top = s.peek();
                 if ((ch[i] == ')' && top == '(') || (ch[i] == '}' && top == '{') || (ch[i] == ']' && top == '[')) {
                     s.pop();
@@ -24,12 +23,10 @@ public class ValidParentheses {
             System.out.println("Valid Parentheses");
         } else {
             System.out.println("inValid Parentheses");
-
         }
-
     }
 
-    public static void main(String strs[]) {
+    public static void main(String args[]) {
         String str = "({[]]})";
         function(str);
     }
