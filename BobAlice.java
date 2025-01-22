@@ -45,7 +45,7 @@ public class BobAlice {
 
     public static void main(String[] args) {
 
-        String str1 = "";
+        String str1 = "ab#c";
         String str2 = "ab#c";
         function(str1, str2);
     }
